@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["EDIT THE STATUS", "🎮 Playing VALORANT"];
+const statusMessages = ["🐢 Cargando... por favor espera... unos 100 años más", "🎮 Haciendo speedrun de la vida (casi me mato en el tutorial)"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
